@@ -254,7 +254,7 @@ Icons
 ------
 
 Since Flatpak 0.8.8, host icons from ``/usr/share/icons`` are exposed
-in the sandbox at ``/run/host/share/icons`` and ``$XDG_DATA_HOME/icons``
+in the sandbox at ``/run/host/usr/share/icons`` and ``$XDG_DATA_HOME/icons``
 in ``/run/host/user-share/icons``.
 
 ``~/.icons`` is a legacy path and should not be used.
